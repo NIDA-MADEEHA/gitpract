@@ -694,4 +694,30 @@ git tag -d <name>
 git cherry-pick <commit>
 git clean -f
 git show HEAD
+
 git blame <file>
+
+
+docker pull jasonrivers/nagios:latest
+docker run --name nagiosdemo -p 8888:80 jasonrivers/nagios:latest
+docker stop nagiosdemo
+docker rm nagiosdemo
+docker tun --name......
+go to btowser and click localhost:8888
+username:nagiosadmin....pass:nagios
+we get website
+
+
+
+minikube start
+kubectl create deployment somename --image=nginx
+kubectl expose deployment name --type=NodePort --port=80 --target-port=80
+kubectl get service name
+minikube service name
+
+
+ngrok:
+put auth code
+ngrok http 8080
+u will gwt one code put it in webhook with /github-webhook/
+then create webhook
